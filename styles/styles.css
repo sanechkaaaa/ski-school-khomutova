@@ -52,12 +52,21 @@
       font-size: 24px;
       line-height: 29px;
       font-weight: 500;
+      text-decoration: none;
+      color: rgba(6, 13, 16, 1);
+  }
+
+  .header_logo {
+    text-decoration: none;
+    color: rgba(6, 13, 16, 1);
   }
 
   .header_number {
       font-size: 28px;
       line-height: 34px;
       font-weight: 500;
+      text-decoration: none;
+      color: rgba(6, 13, 16, 1);
   }
 
   .promo {
@@ -135,17 +144,21 @@
   }
 
   .footer {
-      color: rgba(255, 255, 255, 1);
+      background-color: rgba(6, 13, 16, 1);
   }
 
   .footer_link {
       font-size: 20px;
       line-height: 33px;
       font-weight: 500;
+      text-decoration: none;
+      color: rgba(255, 255, 255, 1);
+      
   }
 
   .footer_text {
       font-size: 18px;
       line-height: 22px;
       font-weight: 500;
+      color: rgba(255, 255, 255, 1);
   }
