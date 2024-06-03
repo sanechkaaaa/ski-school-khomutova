@@ -1,112 +1,151 @@
   /* oswald-500 - cyrillic-ext_latin */
   @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 500;
-    src: url('../fonts/oswald-v53-cyrillic-ext_latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      font-display: swap;
+      /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Oswald';
+      font-style: normal;
+      font-weight: 500;
+      src: url('../fonts/oswald-v53-cyrillic-ext_latin-500.woff2') format('woff2');
+      /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
 
   /* montserrat-regular - cyrillic-ext_latin-ext */
-@font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/montserrat-v26-cyrillic-ext_latin-ext-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  @font-face {
+      font-display: swap;
+      /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      src: url('../fonts/montserrat-v26-cyrillic-ext_latin-ext-regular.woff2') format('woff2');
+      /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
+
   /* montserrat-500 - cyrillic-ext_latin-ext */
   @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    src: url('../fonts/montserrat-v26-cyrillic-ext_latin-ext-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+      font-display: swap;
+      /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      src: url('../fonts/montserrat-v26-cyrillic-ext_latin-ext-500.woff2') format('woff2');
+      /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
 
-body {
-    font-family: 'Montserrat', serif;
-    font-weight: 400;
-    font-style: normal;
-}
+  body {
+      font-family: 'Montserrat', serif;
+      font-weight: 400;
+      font-style: normal;
+  }
 
-.container {
-    width: 1278px;
-    margin: 0 auto;
-}
+  .container {
+      width: 1278px;
+      margin: 0 auto;
+  }
 
-.header_link {
-    font-size: 24px;
-    line-height: 29.26px;
-    font-weight: 500;
-}
-.header_number {
-    font-size: 28px;
-    line-height: 34.13px;
-    font-weight: 500;
-}
+  .header_link {
+      font-size: 24px;
+      line-height: 29px;
+      font-weight: 500;
+  }
 
-.promo {
-    color: rgba(255, 255, 255, 1);
-}
+  .header_number {
+      font-size: 28px;
+      line-height: 34px;
+      font-weight: 500;
+  }
 
-.promo_title {
-    font-size: 60px;
-    line-height: 88.92px;
-    font-weight: 500;
-    font-family: 'Oswald';
-}
-.promo_text {
-    font-size: 32px;
-    line-height: 39.01px;
-    font-weight: 500;
-}
-.features_title {
-    font-size: 48px;
-    line-height: 80.16px;
-    font-weight: 500;
-    font-family: 'Oswald';
-}
-.features_subtitle {
-    font-size: 32px;
-    line-height: 53.44px;
-    font-weight: 500;
-    font-family: 'Oswald';
-}
-.features_text {
-    font-size: 26px;
-    line-height: 36.4px;
-}
-.lead_title {
-    font-size: 48px;
-    line-height: 80.16px;
-    font-weight: 500;
-    font-family: 'Oswald';
-}
-.lead_btn {
-    font-size: 36px;
-    line-height: 43.88px;
-    font-weight: 500;
-}
+  .promo {
+      color: rgba(255, 255, 255, 1);
+      background-image: url(../images/bg-promo.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      text-align: center;
+  }
 
-.footer {
-    color: rgba(255, 255, 255, 1);
-}
+  .bg-dark {
+      padding-top: 240px;
+      padding-bottom: 260px;
+      background: rgba(6, 13, 16, 0.25);
+  }
 
-.footer_link {
-    font-size: 20px;
-    line-height: 33.4px;
-    font-weight: 500;
-}
-.footer_text {
-    font-size: 18px;
-    line-height: 21.94px;
-    font-weight: 500;
-}
+  .promo_title {
+      font-size: 60px;
+      line-height: 89px;
+      font-weight: 500;
+      font-family: 'Oswald';
+      margin-bottom: 60px;
+  }
 
+  .promo_text {
+      font-size: 32px;
+      line-height: 39px;
+      font-weight: 500;
+  }
+
+  .features {
+      background: rgba(102, 209, 255, .1);
+  }
+
+  .features_title {
+      font-size: 48px;
+      line-height: 80px;
+      font-weight: 500;
+      font-family: 'Oswald';
+  }
+
+  .features_subtitle {
+      font-size: 32px;
+      line-height: 53px;
+      font-weight: 500;
+      font-family: 'Oswald';
+  }
+
+  .features_text {
+      font-size: 26px;
+      line-height: 36px;
+  }
+
+  .lead {
+      padding-top: 170px;
+      padding-bottom: 180px;
+  }
+
+  .lead_title {
+      font-size: 48px;
+      line-height: 80px;
+      font-weight: 500;
+      font-family: 'Oswald';
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      text-align: center;
+  }
+
+  .lead_btn {
+      font-size: 36px;
+      line-height: 44px;
+      font-weight: 500;
+  }
+
+  .footer {
+      color: rgba(255, 255, 255, 1);
+  }
+
+  .footer_link {
+      font-size: 20px;
+      line-height: 33px;
+      font-weight: 500;
+  }
+
+  .footer_text {
+      font-size: 18px;
+      line-height: 22px;
+      font-weight: 500;
+  }
